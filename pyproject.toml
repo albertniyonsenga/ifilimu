@@ -1,10 +1,14 @@
 [project]
 name = "summa"
 version = "0.1.0"
-description = "Movie CLI"
+description = "Movie CLI to fetch and summarize movies"
+authors = [{ name = "Albert Niyonsenga", email = "a.niyonseng@alustudent.com"}]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+    "rich>=14.1.0",
+    "tenacity>=9.1.2",
     "typer>=0.16.0",
 ]
