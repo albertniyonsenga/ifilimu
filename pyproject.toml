@@ -1,14 +1,20 @@
 [project]
-name = "ifilimu.main:app"
-version = "0.1.0"
+name = "ifilimu"
+version = "0.3.0"
 description = "Movie CLI to fetch and summarize movies"
 authors = [{ name = "Albert Niyonsenga", email = "a.niyonseng@alustudent.com"}]
 readme = "README.md"
+license = { text="MIT"}
 requires-python = ">=3.12"
 dependencies = [
+    "httpx>=0.28.1",
     "python-dotenv>=1.1.1",
     "requests>=2.32.4",
     "rich>=14.1.0",
+    "sqlite3",
     "tenacity>=9.1.2",
     "typer>=0.16.0",
 ]
+
+[projects.scripts]
+ifilimu = "ifilimu.main:app"
