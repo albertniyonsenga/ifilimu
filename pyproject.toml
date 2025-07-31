@@ -1,6 +1,6 @@
 [project]
 name = "ifilimu"
-version = "0.3.0"
+version = "0.4.0"
 description = "Movie CLI to fetch and summarize movies"
 authors = [{ name = "Albert Niyonsenga", email = "a.niyonseng@alustudent.com"}]
 readme = "README.md"
@@ -17,4 +17,4 @@ dependencies = [
 ]
 
 [projects.scripts]
-ifilimu = "ifilimu.main:app"
+ifilimu = "ifilimu.main:run"
