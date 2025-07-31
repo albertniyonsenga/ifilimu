@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from rich.console import Console
 from rich.panel import Panel
 from rich.progress import Progress, SpinnerColumn, TextColumn
-from summa.utils import fetch_movie_data
+from ifilimu.utils import fetch_movie_data
 
 app = typer.Typer()
 console = Console()
